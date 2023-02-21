@@ -50,6 +50,7 @@ main {
   font-style: normal;
   font-weight: 700;
   background: #F5F7FB;
+  min-height: 100vh;
   padding: 0 12em;
   display: flex;
   flex-direction: column;
@@ -121,7 +122,6 @@ main {
 @media (max-width: 860px) {
 
   .quiz-page {
-    height: auto;
     padding: 1em;
   }
 
